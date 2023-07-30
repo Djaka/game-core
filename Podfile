@@ -9,5 +9,5 @@ target 'Core' do
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
   pod 'RealmSwift', '~>10'
-  pod 'Alamofire'
+  pod 'Alamofire', :git=>"https://github.com/Alamofire/Alamofire.git", :tag=>'5.7.0'
 end
