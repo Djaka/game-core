@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum APIError: Error {
+public enum APIError: Error {
     case decode
     case unAuthorize
     case forbidden
@@ -33,7 +33,7 @@ enum APIError: Error {
     }
 }
 
-enum DatabaseError: Error {
+public enum DatabaseError: Error {
     case invalidInstance
     case errorRequest
     case unknown

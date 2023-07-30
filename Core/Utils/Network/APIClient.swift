@@ -9,11 +9,11 @@ import Foundation
 import Alamofire
 import RxSwift
 
-protocol APIClient {
+public protocol APIClient {
     func request<T: Codable>(endpoint: APIEndpointProtocol, responseModel: T.Type) -> Observable<T>
 }
 
-extension APIClient {
+public extension APIClient {
     func request<T: Codable>(endpoint: APIEndpointProtocol, responseModel: T.Type) -> Observable<T> {
         
         return Observable<T>.create { observer in

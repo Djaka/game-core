@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-protocol APIEndpointProtocol {
+public protocol APIEndpointProtocol {
     var baseURL: URL { get }
     var path: String { get }
     var parameters: Parameters? { get }
