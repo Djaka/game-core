@@ -133,5 +133,10 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
 
   spec.swift_version = "5.8.1"
+  
+  spec.dependency 'RxSwift', '6.5.0'
+  spec.dependency 'RxCocoa', '6.5.0'
+  spec.dependency 'RealmSwift', '~>10'
+  spec.dependency 'Alamofire'
 
 end
