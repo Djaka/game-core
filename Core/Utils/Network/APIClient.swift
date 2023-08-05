@@ -10,11 +10,11 @@ import Alamofire
 import RxSwift
 
 public protocol APIClient {
-    func request<T: Codable>(endpoint: APIEndpointProtocol, responseModel: T.Type) -> Observable<T>
+    func requestClient<T: Codable>(endpoint: APIEndpointProtocol, responseModel: T.Type) -> Observable<T>
 }
 
 public extension APIClient {
-    func request<T: Codable>(endpoint: APIEndpointProtocol, responseModel: T.Type) -> Observable<T> {
+    func requestClient<T: Codable>(endpoint: APIEndpointProtocol, responseModel: T.Type) -> Observable<T> {
         
         return Observable<T>.create { observer in
             
