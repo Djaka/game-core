@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15C2628C474614691F250CB5 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECFF3BD6B45D89665C722AA /* Pods_Core.framework */; };
-		88A5087F2A7550B60072176B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5087E2A7550B60072176B /* DataSource.swift */; };
+		88A5087F2A7550B60072176B /* RemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5087E2A7550B60072176B /* RemoteSource.swift */; };
 		88A508812A7551E90072176B /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A508802A7551E90072176B /* LocalDataSource.swift */; };
 		88A508842A755F760072176B /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A508832A755F760072176B /* Mapper.swift */; };
 		88A508872A7560B30072176B /* CustomError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A508862A7560B30072176B /* CustomError+Ext.swift */; };
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		2ECFF3BD6B45D89665C722AA /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FCF8E9CEC74A6B2442ACCA /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
-		88A5087E2A7550B60072176B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		88A5087E2A7550B60072176B /* RemoteSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSource.swift; sourceTree = "<group>"; };
 		88A508802A7551E90072176B /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
 		88A508832A755F760072176B /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		88A508862A7560B30072176B /* CustomError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomError+Ext.swift"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				88A5088A2A7561870072176B /* Repository */,
-				88A5087E2A7550B60072176B /* DataSource.swift */,
+				88A5087E2A7550B60072176B /* RemoteSource.swift */,
 				88A508802A7551E90072176B /* LocalDataSource.swift */,
 			);
 			path = Data;
@@ -268,7 +268,7 @@
 				88A508902A756B160072176B /* APIEndpointProtocol.swift in Sources */,
 				88A68FDA2A7025BD00641CFD /* Core.docc in Sources */,
 				88A68FE42A702AFF00641CFD /* UseCase.swift in Sources */,
-				88A5087F2A7550B60072176B /* DataSource.swift in Sources */,
+				88A5087F2A7550B60072176B /* RemoteSource.swift in Sources */,
 				88A508892A7561590072176B /* Result+Ext.swift in Sources */,
 				88A68FE92A702E5200641CFD /* Repository.swift in Sources */,
 			);
