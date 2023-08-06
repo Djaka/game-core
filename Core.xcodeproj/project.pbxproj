@@ -20,6 +20,7 @@
 		88A68FE42A702AFF00641CFD /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A68FE32A702AFF00641CFD /* UseCase.swift */; };
 		88A68FE62A702BAD00641CFD /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A68FE52A702BAD00641CFD /* Interactor.swift */; };
 		88A68FE92A702E5200641CFD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A68FE82A702E5200641CFD /* Repository.swift */; };
+		88B869782A7EDD70004C1FBD /* GetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B869772A7EDD70004C1FBD /* GetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		88A68FE32A702AFF00641CFD /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		88A68FE52A702BAD00641CFD /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		88A68FE82A702E5200641CFD /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		88B869772A7EDD70004C1FBD /* GetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewModel.swift; sourceTree = "<group>"; };
 		A67C8EE2FB629576A05602AB /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 		88A68FD72A7025BD00641CFD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				88B869792A7EDD86004C1FBD /* ViewModel */,
 				88A5088B2A7568530072176B /* Utils */,
 				88A68FE12A702A2300641CFD /* Domain */,
 				88A5087D2A75509F0072176B /* Data */,
@@ -136,6 +139,14 @@
 				88A68FE52A702BAD00641CFD /* Interactor.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		88B869792A7EDD86004C1FBD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88B869772A7EDD70004C1FBD /* GetViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		CAD6B6FE72F3F6073DCB22BB /* Pods */ = {
@@ -270,6 +281,7 @@
 				88A68FE42A702AFF00641CFD /* UseCase.swift in Sources */,
 				88A5087F2A7550B60072176B /* RemoteSource.swift in Sources */,
 				88A508892A7561590072176B /* Result+Ext.swift in Sources */,
+				88B869782A7EDD70004C1FBD /* GetViewModel.swift in Sources */,
 				88A68FE92A702E5200641CFD /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
