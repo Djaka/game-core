@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Core"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.3"
   spec.summary      = "Game Advance app Core.framework for modularization chapter"
 
   # This description is used to generate tags and improve search results.
