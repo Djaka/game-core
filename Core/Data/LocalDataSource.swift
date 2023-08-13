@@ -12,8 +12,11 @@ public protocol LocalDataSource {
     associatedtype Request
     associatedtype Response
     
-    func list(request: Request?) -> Observable<[Response]>
+    func get(request: Request?) -> Observable<[Response]>
+    
     func add(entities: Response) -> Observable<Bool>
-    func find(keywoard: String) -> Observable<[Response]>
-    func delete(id: Int) -> Observable<Bool>
+    
+    func update(request: Request?) -> Observable<Bool>
+    
+    func delete(request: Request) -> Observable<Bool>
 }
