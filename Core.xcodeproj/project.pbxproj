@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15C2628C474614691F250CB5 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECFF3BD6B45D89665C722AA /* Pods_Core.framework */; };
+		88251D0F2A8E26F5009FD62D /* RemoteMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88251D0E2A8E26F5009FD62D /* RemoteMapper.swift */; };
 		88329CA22A872FF200A0E14F /* LocalMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88329CA12A872FF200A0E14F /* LocalMapper.swift */; };
 		8873DCC52A8921DD00602AC9 /* JsonDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873DCC42A8921DD00602AC9 /* JsonDataFactory.swift */; };
 		88A5087F2A7550B60072176B /* RemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5087E2A7550B60072176B /* RemoteSource.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		2ECFF3BD6B45D89665C722AA /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FCF8E9CEC74A6B2442ACCA /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		88251D0E2A8E26F5009FD62D /* RemoteMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMapper.swift; sourceTree = "<group>"; };
 		88329CA12A872FF200A0E14F /* LocalMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMapper.swift; sourceTree = "<group>"; };
 		8873DCC42A8921DD00602AC9 /* JsonDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataFactory.swift; sourceTree = "<group>"; };
 		88A5087E2A7550B60072176B /* RemoteSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSource.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				8873DCC32A8921CC00602AC9 /* Factory */,
 				88A508832A755F760072176B /* Mapper.swift */,
+				88251D0E2A8E26F5009FD62D /* RemoteMapper.swift */,
 				88329CA12A872FF200A0E14F /* LocalMapper.swift */,
 				88A508852A75601F0072176B /* Extensions */,
 				88A5088C2A7569A40072176B /* Network */,
@@ -290,6 +293,7 @@
 				88A68FE62A702BAD00641CFD /* Interactor.swift in Sources */,
 				88A5088E2A7569BC0072176B /* APIClient.swift in Sources */,
 				88A508842A755F760072176B /* Mapper.swift in Sources */,
+				88251D0F2A8E26F5009FD62D /* RemoteMapper.swift in Sources */,
 				88A508902A756B160072176B /* APIEndpointProtocol.swift in Sources */,
 				88A68FDA2A7025BD00641CFD /* Core.docc in Sources */,
 				88A68FE42A702AFF00641CFD /* UseCase.swift in Sources */,
